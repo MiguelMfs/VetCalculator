@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-section {
+    position: relative;
+    width: 100%;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.login-button {
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    background-color: #133b77;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.icon-user {
+    width: 40px;
+    height: 40px;
+}
+
+.breadcrumb {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #D0D8E4;
+    padding: 30px 40px;
+    font-size: 30px;
+    color: #444;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.icon-home {
+    width: 32px;
+    height: 32px;
+}
+
+.current-page {
+    font-weight: bold;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 60px;
+    color: #1b3060;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.species-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.species-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.species-buttons li button {
+    background-color: #aebacf;
+    color: #1b3060;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    width: 180px; /* Tamanho fixo horizontal */
+    height: 50px; /* Altura padronizada */
+    text-align: center;
+}
+
+.form-section {
+    background-color: #aebacf;
+    padding: 30px 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+    font-size: 22px;
+}
+
+.peso-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-section input, .form-section select {
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.calculate-btn {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #133b77;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.formula {
+    font-size: 24px;
+    text-align: center;
+}
+
+.fraction {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.medication-section {
+    background-color: #e0e6f0;
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 250px;
+    height: fit-content;
+}
+
+.medication-section input {
+    width: 100%;
+    
+    margin-bottom: 20px;
+}
+
+.medication-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

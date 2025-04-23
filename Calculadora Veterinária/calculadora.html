@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Veterinária</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Calculadora Veterinária</h1>
+
+    <div class="main-content">
+      <!-- Coluna da esquerda -->
+      <div class="sidebar">
+        <h2 class="species-heading">Espécies</h2>
+        <ul class="species-buttons">
+          <li><button>Canina</button></li>
+          <li><button>Felina</button></li>
+          <li><button>Equina</button></li>
+          <li><button>Bovino</button></li>
+          <li><button>Mamíferos</button></li>
+          <li><button>Aves</button></li>
+          <li><button>Répteis</button></li>
+          <li><button>Roedores</button></li>
+        </ul>
+      </div>
+
+      <!-- Coluna do centro -->
+      <div class="form-section">
+        <select>
+          <option>Selecione</option>
+        </select>
+
+        <label for="peso">Peso:</label>
+        <div class="peso-group">
+          <span>Kg</span><input type="number" min="0" value="00">
+          <span>g</span><input type="number" min="0" value="00">
+        </div>
+
+        <label for="dose">Dose recomendada:</label>
+        <div class="peso-group">
+          <span>Mg/Kg</span><input type="number" min="0" value="00">
+        </div>
+
+        <label for="concentracao">Concentração do medicamento:</label>
+        <div class="peso-group">
+          <span>Mg/ml</span><input type="number" min="0" value="00">
+        </div>
+
+        <button class="calculate-btn">Calcular</button>
+
+        <p class="resultado">Dose a ser administrada =</p>
+        <p class="formula">
+          
+          <span class="fraction">(Peso do animal (kg) x Dose recomendada (mg/kg)</span><br>
+          <span class="fraction">Concentração do medicamento(mg/ml))</span><br>
+          
+        </p>
+      </div>
+
+      <!-- Coluna da direita -->
+      <div class="medication-section">
+        <input type="text" placeholder="Buscar medicamento...">
+        <ul class="medication-list">
+          <li>Acebrofilina</li>
+          <li>Acetato de dexametasona</li>
+          <li>Albenza (Albendazol)</li>
+          <li>Amoxicilina</li>
+          <li>Ansiolítico (Diazepam)</li>
+          <li>Apomorfina</li>
+          <li>Avermectina</li>
+          <li>Betametasona</li>
+          <li>Bupivacaína</li>
+          <li>Butorfanol</li>
+          <li>Captopril</li>
+          <li>Carprofeno</li>
+          <li>Cefalexina</li>
+          <li>Ceftriaxona</li>
+          <li>Cloridrato de tramadol</li>
+          <li>Cloranfenicol</li>
+          <li>Ciprofloxacina</li>
+          <li>Clindamicina</li>
+          <li>Dantroleno</li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
