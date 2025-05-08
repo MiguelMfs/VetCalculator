@@ -1,0 +1,16 @@
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\CalculadoraVetBackendApplication.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\config\SecurityConfig.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\controller\AuthController.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\controller\RecuperacaoSenhaController.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\controller\UsuarioController.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\dto\LoginRequest.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\entity\PasswordResetToken.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\entity\Usuario.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\repository\PasswordResetTokenRepository.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\repository\UsuarioRepository.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\security\JwtAuthenticationFilter.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\service\AuthService.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\service\CustomUserDetailsService.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\service\RecuperacaoSenhaService.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\service\TokenService.java
+C:\Users\felipe.mamore\Documents\backend\src\main\java\com\calculadora\veterinaria\backend\service\UsuarioService.java

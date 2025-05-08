@@ -1,0 +1,14 @@
+com\calculadora\veterinaria\backend\repository\UsuarioRepository.class
+com\calculadora\veterinaria\backend\controller\AuthController.class
+com\calculadora\veterinaria\backend\service\RecuperacaoSenhaService.class
+com\calculadora\veterinaria\backend\controller\RecuperacaoSenhaController.class
+com\calculadora\veterinaria\backend\repository\PasswordResetTokenRepository.class
+com\calculadora\veterinaria\backend\entity\PasswordResetToken.class
+com\calculadora\veterinaria\backend\CalculadoraVetBackendApplication.class
+com\calculadora\veterinaria\backend\dto\LoginRequest.class
+com\calculadora\veterinaria\backend\controller\AuthController$TokenResponse.class
+com\calculadora\veterinaria\backend\controller\AuthController$LoginRequest.class
+com\calculadora\veterinaria\backend\entity\Usuario.class
+com\calculadora\veterinaria\backend\service\TokenService.class
+com\calculadora\veterinaria\backend\service\CustomUserDetailsService.class
+com\calculadora\veterinaria\backend\service\AuthService.class
