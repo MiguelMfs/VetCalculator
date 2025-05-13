@@ -120,3 +120,44 @@ Método: DELETE
 
 Rodar o Projeto:
 mvn spring-boot:run
+
+🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠
+
+Endpoints:
+
+Login: http://localhost:8080/api/auth/login
+
+Payload:
+{
+    "email": "",
+    "senha": ""
+}
+
+Novo usuario: http://localhost:8080/api/users
+
+Payload:
+
+{
+  "nomeCompleto": "",
+  "rg": "",
+  "cpf": "",
+  "email": "",
+  "senha": ""
+
+}
+
+Esqueci minha senha: http://localhost:8080/api/senha/forgot-password
+
+Payload: {
+  "email": ""
+}
+
+- Irá Gerar um token para ser utilizado no endpoint de resetar a senha.
+
+Resetar Senha: http://localhost:8080/api/senha/reset-password
+
+{
+  "token": "",
+  "novaSenha": ""
+}
+
